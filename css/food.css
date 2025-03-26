@@ -8,6 +8,7 @@
     --color:#120d09;
     --yellow: #f6b31a;
  }
+ 
  body {
    scroll-behavior: smooth;
  }
@@ -153,7 +154,7 @@
  }
   /* end nav title  */
   /* start section dark  */
-  section.dark {
+  section.dark ,.copydark{
     background-color: var(--bg-color);
   }
   /* end section dark  */
@@ -165,3 +166,23 @@
     text-align:justify
   }
   /* end about  */
+  /* start social section  */
+ a.fac:hover .fa-facebook-f{
+   color:blue
+  }
+  a.tw:hover .fa-twitter {
+color: aqua;
+  }
+  .gog:hover .fa-google {
+   color:#6f060b
+  }
+  .ins:hover .fa-instagram {
+   color:crimson
+  }
+  .in:hover .fa-linkedin-in{
+   color:#393c43
+  }
+  .git:hover .fa-github{
+   color: black;
+  }
+  /* end soicsl section  */
